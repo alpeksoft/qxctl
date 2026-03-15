@@ -1,11 +1,11 @@
-# QEMU VM Command and Control Utility for Linux XDG Desktop (QXCTL)
+# QEMU VM Control Utility for Linux XDG Desktop (QXCTL)
 
 A lightweight QEMU VM management tool for **DevOps**, **PenTest**, and **OSINT** professionals,
 focused on secure desktop environments with native QEMU and full GPU (3D) acceleration.
 
 QXCTL provides direct desktop integration without SPICE or VNC layers, and supports:
 
-- Friendly CLI
+- Friendly CLI (standard and simplified syntax)
 - Easy VM creation and configuration
 - Usermode and macvtap networking (no virbr)
 - Seamless desktop integration
@@ -33,4 +33,4 @@ at your option.
 
 ## Authors
 
-[AlpekSoft.com](https://alpeksoft.com) — Alena Křížová & Petr Kříž
+[AlpekSoft.com](https://alpeksoft.com) — Alena Kříž & Petr Kříž
