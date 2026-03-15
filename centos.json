@@ -1,0 +1,57 @@
+{
+  "schema_id": "qxctl-downloader",
+  "schema_version": "1.0",
+  "published_at": "2026-03-15",
+  "downloaded_at": null,
+  "distro_name": "CentOS 10 64bit (Stream)",
+  "variants": [
+    {
+      "label": "CENTOS-10-FULL",
+      "filename": "CentOS-Stream-10-latest-x86_64-dvd1.iso",
+      "mirrors": [
+        {
+          "region_id": "EU",
+          "region_label": "Europe",
+          "base_url": "https://ftp.sh.cvut.cz/centos-stream/10-stream/BaseOS/x86_64/iso/",
+          "enabled": true
+        },
+        {
+          "region_id": "CA",
+          "region_label": "Canada",
+          "base_url": "https://mirror.xenyth.net/centos-stream/10-stream/BaseOS/x86_64/iso/",
+          "enabled": true
+        },
+        {
+          "region_id": "AU",
+          "region_label": "Australia",
+          "base_url": "https://syd.mirror.rackspace.com/centos-stream/10-stream/BaseOS/x86_64/iso/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "label": "CENTOS-10-NETINST",
+      "filename": "CentOS-Stream-10-latest-x86_64-boot.iso",
+      "mirrors": [
+        {
+          "region_id": "EU",
+          "region_label": "Europe",
+          "base_url": "https://ftp.sh.cvut.cz/centos-stream/10-stream/BaseOS/x86_64/iso/",
+          "enabled": true
+        },
+        {
+          "region_id": "CA",
+          "region_label": "Canada",
+          "base_url": "https://mirror.xenyth.net/centos-stream/10-stream/BaseOS/x86_64/iso/",
+          "enabled": true
+        },
+        {
+          "region_id": "AU",
+          "region_label": "Australia",
+          "base_url": "https://syd.mirror.rackspace.com/centos-stream/10-stream/BaseOS/x86_64/iso/",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
