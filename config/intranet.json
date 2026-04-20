@@ -1,0 +1,35 @@
+{
+  "schema_id": "qxctl-downloader",
+  "schema_version": "1.0",
+  "distro_name": "DEMO: Intranet ISO and VM Images (Warning: contain old image versions)",
+  "iso_images": [
+    {
+      "iso_id": "DEMO-ALPINE-ISO",
+      "file_path": "alpine.iso",
+      "description": ""
+    }
+  ],
+  "vm_exports": [
+    {
+      "vm_id": "DEMO-CIRROS-VM",
+      "file_path": "cirros.qxvm",
+      "description": ""
+    }
+  ],
+  "mirrors": [
+    {
+      "mirror_id": "GIT",
+      "mirror_name": "GitHub",
+      "base_url": "https://raw.githubusercontent.com/alpeksoft/qxctl/main/demo/",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "mirror_id": "LAN",
+      "mirror_name": "Non-functional Example",
+      "base_url": "https://server.domian.local/qxctl/",
+      "description": "",
+      "enabled": true
+    }
+  ]
+}
