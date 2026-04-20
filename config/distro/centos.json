@@ -1,0 +1,43 @@
+{
+  "schema_id": "qxctl-downloader",
+  "schema_version": "1.0",
+  "distro_name": "CentOS 10 64bit (Stream)",
+  "iso_images": [
+    {
+      "iso_id": "CENTOS-10-NETINST",
+      "file_path": "CentOS-Stream-10-latest-x86_64-boot.iso",
+      "description": ""
+    }
+  ],
+  "vm_exports": [],
+  "mirrors": [
+    {
+      "mirror_id": "EU",
+      "mirror_name": "Europe",
+      "base_url": "https://ftp.sh.cvut.cz/centos-stream/10-stream/BaseOS/x86_64/iso/",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "mirror_id": "CA",
+      "mirror_name": "Canada",
+      "base_url": "https://tor.mirror.rackspace.com/centos-stream/10-stream/BaseOS/x86_64/iso/",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "mirror_id": "AU",
+      "mirror_name": "Australia",
+      "base_url": "https://syd.mirror.rackspace.com/centos-stream/10-stream/BaseOS/x86_64/iso/",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "mirror_id": "..",
+      "mirror_name": "GeoIP Automatic",
+      "base_url": "https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/iso/",
+      "description": "",
+      "enabled": false
+    }
+  ]
+}

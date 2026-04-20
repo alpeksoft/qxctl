@@ -1,0 +1,43 @@
+{
+  "schema_id": "qxctl-downloader",
+  "schema_version": "1.0",
+  "distro_name": "Debian 13 64bit (Trixie)",
+  "iso_images": [
+    {
+      "iso_id": "DEBIAN-13-NETINST",
+      "file_path": "iso-cd/debian-13.4.0-amd64-netinst.iso",
+      "description": ""
+    }
+  ],
+  "vm_exports": [],
+  "mirrors": [
+    {
+      "mirror_id": "EU",
+      "mirror_name": "Europe",
+      "base_url": "https://ftp.sh.cvut.cz/debian-cd/current/amd64/",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "mirror_id": "CA",
+      "mirror_name": "Canada",
+      "base_url": "https://mirror.xenyth.net/debian-cd/current/amd64/",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "mirror_id": "AU",
+      "mirror_name": "Australia",
+      "base_url": "https://mirror.aarnet.edu.au/pub/debian-cd/current/amd64/",
+      "description": "",
+      "enabled": true
+    },
+    {
+      "mirror_id": "..",
+      "mirror_name": "GeoIP Automatic",
+      "base_url": "https://cdimage.debian.org/debian-cd/current/amd64/",
+      "description": "",
+      "enabled": false
+    }
+  ]
+}
