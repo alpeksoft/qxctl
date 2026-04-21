@@ -15,28 +15,24 @@
       "mirror_id": "EU",
       "mirror_name": "Europe",
       "base_url": "https://ftp.sh.cvut.cz/centos-stream/10-stream/BaseOS/x86_64/iso/",
-      "description": "",
       "enabled": true
     },
     {
       "mirror_id": "CA",
       "mirror_name": "Canada",
       "base_url": "https://tor.mirror.rackspace.com/centos-stream/10-stream/BaseOS/x86_64/iso/",
-      "description": "",
       "enabled": true
     },
     {
       "mirror_id": "AU",
       "mirror_name": "Australia",
       "base_url": "https://syd.mirror.rackspace.com/centos-stream/10-stream/BaseOS/x86_64/iso/",
-      "description": "",
       "enabled": true
     },
     {
       "mirror_id": "..",
       "mirror_name": "GeoIP Automatic",
       "base_url": "https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/iso/",
-      "description": "",
       "enabled": false
     }
   ]
