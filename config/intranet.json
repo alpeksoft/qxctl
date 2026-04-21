@@ -21,14 +21,12 @@
       "mirror_id": "GIT",
       "mirror_name": "GitHub",
       "base_url": "https://raw.githubusercontent.com/alpeksoft/qxctl/main/demo/",
-      "description": "",
       "enabled": true
     },
     {
       "mirror_id": "LAN",
       "mirror_name": "Non-functional Example",
       "base_url": "https://server.domian.local/qxctl/",
-      "description": "",
       "enabled": true
     }
   ]
