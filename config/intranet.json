@@ -1,7 +1,6 @@
 {
   "schema_id": "qxctl-downloader",
   "schema_version": "1.0",
-  "distro_name": "Demo-data for Intranet ISO and VM Images (warn: contains old software)",
   "iso_images": [
     {
       "iso_id": "FREEDOS",
