@@ -1,19 +1,24 @@
 {
   "schema_id": "qxctl-downloader",
   "schema_version": "1.0",
-  "distro_name": "DEMO: Intranet ISO and VM Images (Warning: contain old image versions)",
+  "distro_name": "Demo-data for Intranet ISO and VM Images (warn: contains old software)",
   "iso_images": [
     {
-      "iso_id": "DEMO-ALPINE-ISO",
-      "file_path": "alpine.iso",
-      "description": ""
+      "iso_id": "FREEDOS",
+      "file_path": "freedos.iso",
+      "description": "FreeDOS 1.4, Live CD"
     }
   ],
   "vm_exports": [
     {
-      "vm_id": "DEMO-CIRROS-VM",
-      "file_path": "cirros.qxvm",
-      "description": ""
+      "vm_id": "DOS1",
+      "file_path": "freedos.qxvm",
+      "description": "FreeDOS 1.4, try: 'eliza.exe' (AI chatbot from 1966)"
+    },
+    {
+      "vm_id": "DOS2",
+      "file_path": "freedos.qxvm",
+      "description": "FreeDOS 1.4, try: 'smmu.exe' (Free DOOM)"
     }
   ],
   "mirrors": [
@@ -26,8 +31,8 @@
     {
       "mirror_id": "LAN",
       "mirror_name": "Non-functional Example",
-      "base_url": "https://server.domian.local/qxctl/",
-      "enabled": true
+      "base_url": "https://server.domain.local/qxctl/",
+      "enabled": false
     }
   ]
 }
