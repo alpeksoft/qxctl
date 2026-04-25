@@ -1,7 +1,7 @@
 {
   "schema_id": "qxctl-downloader",
   "schema_version": "1.0",
-  "distro_name": "Debian 13 64bit (Trixie)",
+  "vm_exports": [],
   "iso_images": [
     {
       "iso_id": "DEBIAN-13-NETINST",
@@ -9,7 +9,6 @@
       "description": ""
     }
   ],
-  "vm_exports": [],
   "mirrors": [
     {
       "mirror_id": "EU",
