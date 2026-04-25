@@ -5,17 +5,17 @@
     {
       "vm_id": "DOS1",
       "file_path": "freedos.qxvm",
-      "description": "FreeDOS 1.4 VM, try: 'eliza.exe' (AI chatbot from 1966)"
+      "description": "FreeDOS 1.4 VM, try 'eliza.exe' (AI chatbot from 1966)"
     },
     {
       "vm_id": "DOS2",
       "file_path": "freedos.qxvm",
-      "description": "FreeDOS 1.4 VM, try: 'smmu.exe' (DOOM port, rip and tear)"
+      "description": "FreeDOS 1.4 VM, try 'smmu.exe' (DOOM port, rip and tear)"
     }
   ],
   "iso_images": [
     {
-      "iso_id": "FREEDOS",
+      "iso_id": "FREEDOS-14-LIVE",
       "file_path": "freedos.iso",
       "description": "FreeDOS 1.4 Live CD"
     }
