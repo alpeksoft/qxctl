@@ -1,23 +1,23 @@
 {
   "schema_id": "qxctl-downloader",
   "schema_version": "1.0",
-  "iso_images": [
-    {
-      "iso_id": "FREEDOS",
-      "file_path": "freedos.iso",
-      "description": "FreeDOS 1.4, Live CD"
-    }
-  ],
   "vm_exports": [
     {
       "vm_id": "DOS1",
       "file_path": "freedos.qxvm",
-      "description": "FreeDOS 1.4, try: 'eliza.exe' (AI chatbot from 1966)"
+      "description": "FreeDOS 1.4 VM, try: 'eliza.exe' (AI chatbot from 1966)"
     },
     {
       "vm_id": "DOS2",
       "file_path": "freedos.qxvm",
-      "description": "FreeDOS 1.4, try: 'smmu.exe' (Free DOOM)"
+      "description": "FreeDOS 1.4 VM, try: 'smmu.exe' (DOOM port, rip and tear)"
+    }
+  ],
+  "iso_images": [
+    {
+      "iso_id": "FREEDOS",
+      "file_path": "freedos.iso",
+      "description": "FreeDOS 1.4 Live CD"
     }
   ],
   "mirrors": [
