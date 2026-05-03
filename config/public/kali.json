@@ -1,0 +1,46 @@
+{
+  "schema_id": "qxctl-get",
+  "schema_version": "1.0",
+  "vms": {"images": [], "mirrors": []},
+  "iso": {
+    "images": [
+      {
+        "iso_id": "KALI-2026-1-NETINST",
+        "file_path": "kali-linux-2026.1-installer-netinst-amd64.iso",
+        "description": ""
+      }
+    ],
+    "mirrors": [
+      {
+        "mirror_id": "DE",
+        "mirror_name": "Europe",
+        "base_url": "https://ftp.halifax.rwth-aachen.de/kali-images/current/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "US",
+        "mirror_name": "America",
+        "base_url": "https://mirror.math.princeton.edu/pub/kali-images/current/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "JP",
+        "mirror_name": "Asia",
+        "base_url": "https://ftp.jaist.ac.jp/pub/Linux/kali-images/current/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "AU",
+        "mirror_name": "Oceania",
+        "base_url": "https://mirror.aarnet.edu.au/pub/kali/kali-images/current/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "..",
+        "mirror_name": "GeoIP Automatic",
+        "base_url": "https://cdimage.kali.org/current/",
+        "enabled": false
+      }
+    ]
+  }
+}
