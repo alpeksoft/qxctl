@@ -1,0 +1,46 @@
+{
+  "schema_id": "qxctl-get",
+  "schema_version": "1.0",
+  "vms": {"images": [], "mirrors": []},
+  "iso": {
+    "images": [
+      {
+        "iso_id": "CENTOS-10-NETINST",
+        "file_path": "CentOS-Stream-10-latest-x86_64-boot.iso",
+        "description": ""
+      }
+    ],
+    "mirrors": [
+      {
+        "mirror_id": "DE",
+        "mirror_name": "Europe",
+        "base_url": "https://ftp.halifax.rwth-aachen.de/centos-stream/10-stream/BaseOS/x86_64/iso/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "US",
+        "mirror_name": "America",
+        "base_url": "https://mirror.math.princeton.edu/pub/centos-stream/10-stream/BaseOS/x86_64/iso/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "JP",
+        "mirror_name": "Asia",
+        "base_url": "https://ftp.jaist.ac.jp/pub/Linux/CentOS-stream/10-stream/BaseOS/x86_64/iso/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "AU",
+        "mirror_name": "Oceania",
+        "base_url": "https://mirror.aarnet.edu.au/pub/centos-stream/10-stream/BaseOS/x86_64/iso/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "..",
+        "mirror_name": "GeoIP Automatic",
+        "base_url": "https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/iso/",
+        "enabled": false
+      }
+    ]
+  }
+}
