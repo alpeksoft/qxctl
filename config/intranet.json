@@ -1,37 +1,55 @@
 {
-  "schema_id": "qxctl-downloader",
+  "schema_id": "qxctl-get",
   "schema_version": "1.0",
-  "vm_exports": [
-    {
-      "vm_id": "DOS1",
-      "file_path": "freedos.qxvm",
-      "description": "FreeDOS 1.4 VM, try 'eliza.exe' (AI chatbot from 1966)"
-    },
-    {
-      "vm_id": "DOS2",
-      "file_path": "freedos.qxvm",
-      "description": "FreeDOS 1.4 VM, try 'smmu.exe' (DOOM port, rip and tear)"
-    }
-  ],
-  "iso_images": [
-    {
-      "iso_id": "FREEDOS-14-LIVE",
-      "file_path": "freedos.iso",
-      "description": "FreeDOS 1.4 Live CD"
-    }
-  ],
-  "mirrors": [
-    {
-      "mirror_id": "GIT",
-      "mirror_name": "GitHub",
-      "base_url": "https://raw.githubusercontent.com/alpeksoft/qxctl/main/demo/",
-      "enabled": true
-    },
-    {
-      "mirror_id": "LAN",
-      "mirror_name": "Non-functional Example",
-      "base_url": "https://server.domain.local/qxctl/",
-      "enabled": false
-    }
-  ]
+  "vms": {
+    "images": [
+      {
+        "vm_id": "DOS1",
+        "file_path": "freedos.qxvm",
+        "description": "FreeDOS 1.4 VM, try 'eliza.exe' (AI chatbot from 1966)"
+      },
+      {
+        "vm_id": "DOS2",
+        "file_path": "freedos.qxvm",
+        "description": "FreeDOS 1.4 VM, try 'smmu.exe' (DOOM port, rip and tear)"
+      }
+    ],
+    "mirrors": [
+      {
+        "mirror_id": "GIT",
+        "mirror_name": "GitHub",
+        "base_url": "https://raw.githubusercontent.com/alpeksoft/qxctl/main/demo/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "LAN",
+        "mirror_name": "Non-functional Example",
+        "base_url": "https://server.domain.local/qxctl/",
+        "enabled": false
+      }
+    ]
+  },
+  "iso": {
+    "images": [
+      {
+        "iso_id": "FREEDOS-14-LIVE",
+        "file_path": "freedos.iso",
+        "description": "FreeDOS 1.4 Live CD"
+      }
+    ],
+    "mirrors": [
+      {
+        "mirror_id": "GIT",
+        "mirror_name": "GitHub",
+        "base_url": "https://raw.githubusercontent.com/alpeksoft/qxctl/main/demo/",
+        "enabled": true
+      },
+      {
+        "mirror_id": "LAN",
+        "mirror_name": "Non-functional Example",
+        "base_url": "https://server.domain.local/qxctl/",
+        "enabled": false
+      }
+    ]
+  }
 }
